@@ -1,7 +1,8 @@
-#TheatHunting-Pivoting
+TheatHunting-Pivoting
 ThreatHunting: Pivioting -  DCSync, Pass-the-Hash, and SeImpersonatePrivilege abuse, using tools like SharpHound, Impacket, and PrintSpoofer to exploit credentials and achieve lateral movement.
 
-By Ramyar Daneshgar 
+By Ramyar Daneshgar
+
 ---
 
 #### **Objective**
@@ -47,7 +48,7 @@ To identify reconnaissance activities that an adversary might perform to gather 
    - The analysis revealed that the binary `SharpHound.exe`—commonly associated with BloodHound—was executed to enumerate Active Directory objects. This indicated the attacker was mapping the domain for privileged accounts or misconfigurations.
 
 **Findings:**  
-The attacker used legitimate tools (`whoami`, `systeminfo`, etc.), PowerShell scripts, and reconnaissance utilities (e.g., SharpHound) to gather critical information about the environment.
+The attacker used legitimate tools (`whoami`, `systeminfo`, etc.), PowerShell scripts, and reconnaissance utilities (SharpHound) to gather critical information about the environment.
 
 ---
 
